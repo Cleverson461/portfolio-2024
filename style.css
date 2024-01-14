@@ -1,6 +1,4 @@
-/* ESTILO GERAL */
-
-:root{
+:root {
   --prussian: #1d1d1d5a;
   --sapphire: #000;
   --celadon: #3a3a3a;
@@ -50,9 +48,8 @@ h2.titulo {
   margin-bottom: 75px;
 }
 
-h2.titulo:hover{
+h2.titulo:hover {
   text-shadow: 0 0 3px var(--azure);
-
 }
 
 h2.titulo span {
@@ -76,7 +73,6 @@ header .logo a {
   padding: 0;
 }
 
-
 header a {
   display: inline-block;
   color: #5c5c5c;
@@ -85,11 +81,12 @@ header a {
   transition: all 0.3s ease;
 }
 
-header h1{
+header h1 {
   transition: all 0.3s ease;
 }
 
-header .menu-desktop a:hover, h1:hover {
+header .menu-desktop a:hover,
+h1:hover {
   color: #fff;
   transform: scale(1.05);
 }
@@ -271,7 +268,7 @@ section.formacao .container {
   line-height: 1.5rem;
 }
 
-.formacao .txt-formacao .card-formacao  span {
+.formacao .txt-formacao .card-formacao span {
   font-size: 0.875rem;
   line-height: 1.5rem;
   color: var(--azure);
@@ -280,30 +277,29 @@ section.formacao .container {
   margin-top: 20px;
 }
 
-.formacao .formacao-card  {
+.formacao .formacao-card {
   max-width: 100%;
   width: 600px;
-  
 }
 
-.formacao .formacao-card h3{
+.formacao .formacao-card h3 {
   font-size: 1rem;
   line-height: 1.5rem;
   color: #fff;
 }
 
-.formacao .formacao-card h3:hover{
+.formacao .formacao-card h3:hover {
   color: white;
   text-shadow: 0 0 3px var(--azure);
 }
 
-.formacao .formacao-card h4{
+.formacao .formacao-card h4 {
   font-size: 0.75rem;
   color: #9c9c9c;
   line-height: 1.5rem;
 }
 
-.formacao .formacao-card p{
+.formacao .formacao-card p {
   padding-top: 10px;
   font-size: 0.95rem;
   color: #9c9c9c;
@@ -540,7 +536,7 @@ footer p {
   }
 
   .btn-abrir-menu-mobile i {
-    color: #44e868;
+    color: var(--azure);
     font-size: 45px;
   }
 
