@@ -282,28 +282,28 @@ section.formacao .container {
   width: 600px;
 }
 
-.formacao .formacao-card h3 {
-  font-size: 1rem;
+.formacao .formacao-card h2 {
+  font-size: 2.8rem;
   line-height: 1.5rem;
   color: #fff;
 }
 
-.formacao .formacao-card h3:hover {
+.formacao .formacao-card h2:hover {
   color: white;
   text-shadow: 0 0 3px var(--azure);
 }
 
 .formacao .formacao-card h4 {
-  font-size: 0.75rem;
+  font-size: 0.95rem;
   color: #9c9c9c;
   line-height: 1.5rem;
 }
 
 .formacao .formacao-card p {
   padding-top: 10px;
-  font-size: 0.95rem;
+  font-size: 1.6rem;
   color: #9c9c9c;
-  line-height: 1.5rem;
+  line-height: 1.6rem;
   text-indent: 10px;
 }
 
