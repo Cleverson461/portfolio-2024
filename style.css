@@ -459,6 +459,7 @@ section.formulario .container {
   padding: 5px;
   border-radius: 5px;
   color: #000;
+  font-weight: bold;
   right: 10px;
   top: 10px;
   text-transform: capitalize;
