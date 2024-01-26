@@ -548,13 +548,13 @@ section.formulario .container {
 
 .pre-btn img,
 .nxt-btn img {
-  height: 10%;
+  height: 12%;
   opacity: 0.2;
 }
 
 .pre-btn:hover img,
 .nxt-btn:hover img {
-  height: 10%;
+  height: 13%;
   opacity: 1;
 }
 
