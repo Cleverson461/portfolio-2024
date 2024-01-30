@@ -110,7 +110,7 @@ header nav.menu-desktop ul li {
 }
 
 .menu-mobile {
-  background: #0e0e0e;
+  background: #000000;
   height: 100vh;
   position: fixed;
   top: 0;
@@ -211,7 +211,7 @@ section.topo-do-site .container {
 
 .topo-do-site .img-topo-site img {
   border-radius: 50%;
-  width: 480px;
+  width: 580px;
   position: relative;
   animation: flutuar 2s ease-in-out infinite alternate;
 }
@@ -742,6 +742,11 @@ footer p {
   .topo-do-site .txt-topo-site p {
     margin-bottom: 0;
   }
+
+  section.topo-do-site .container {
+    gap: 52px;
+    z-index: -1;
+}
 
   .btn-social button {
     width: 40px;
