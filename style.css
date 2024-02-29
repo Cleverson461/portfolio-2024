@@ -50,8 +50,6 @@ h2.titulo span {
   color: var(--azure);
 }
 
-
-
 /* CABECALHO */
 
 header {
@@ -173,12 +171,20 @@ section.topo-do-site .container {
 
 .topo-do-site .txt-topo-site h1 {
   color: #fff;
-  font-size: 3.5rem;
-  line-height: 3rem;
+  font-size: 4.5rem;
+  line-height: 4rem;
   max-width: 30ch;
 }
 
+#text1 {
+  color: var(--azure);
+}
+
 .topo-do-site .txt-topo-site h4 {
+  color: var(--azure);
+}
+
+#text {
   color: var(--azure);
 }
 
@@ -336,7 +342,7 @@ section.projetos .box-projetos {
   position: relative;
 }
 
-#img-projeto{
+#img-projeto {
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -437,11 +443,11 @@ section.formulario .container {
   margin-right: 40px;
 }
 
-.product-card h2{
+.product-card h2 {
   color: var(--azure);
 }
 
-.product-card p{
+.product-card p {
   color: #fff;
 }
 
@@ -457,7 +463,6 @@ section.formulario .container {
   height: 100%;
   object-fit: cover;
 }
-
 
 .discount-tag {
   position: absolute;
@@ -501,7 +506,6 @@ section.formulario .container {
   width: 100%;
   height: 100px;
   padding-top: 10px;
-  
 }
 
 .product-brand {
@@ -539,7 +543,11 @@ section.formulario .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, var(--azure) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    var(--azure) 100%
+  );
   cursor: pointer;
   z-index: 8;
 }
@@ -597,7 +605,6 @@ section.formulario .container {
   grid-column: span 2;
   margin-bottom: 10px;
 }
-
 
 form {
   max-width: 500px;
@@ -671,16 +678,17 @@ footer p {
   color: #fff;
 }
 
-#text::after{
-  content: '|';
+#text::after {
+  content: "|";
   margin-left: 5px;
   animation: blink 0.7s infinite;
 }
 
-@keyframes blink{
-  0%{
+@keyframes blink {
+  0% {
     opacity: 1;
-  } 100%{
+  }
+  100% {
     opacity: 0;
   }
 }
@@ -764,7 +772,7 @@ footer p {
   section.topo-do-site .container {
     gap: 52px;
     z-index: -1;
-}
+  }
 
   .btn-social button {
     width: 40px;
@@ -788,7 +796,7 @@ footer p {
     gap: 50px;
   }
 
-  .formacao .formacao-card h2{
+  .formacao .formacao-card h2 {
     line-height: 2.4rem;
   }
 }
